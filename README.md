@@ -47,12 +47,12 @@ Follow the prompts to input or confirm each parameter.
 # CURL instead of clone
 
 ```bash
-   curl -sSL https://raw.githubusercontent.com/vuhoanglam/pgtune/main/pgtuned.sh -o /tmp/pgtuned.sh
-   curl -sSL https://raw.githubusercontent.com/vuhoanglam/pgtune/main/pgtune.sh -o /tmp/pgtune.sh
+curl -sSL https://raw.githubusercontent.com/vuhoanglam/pgtune/main/pgtuned.sh -o /tmp/pgtuned.sh
+curl -sSL https://raw.githubusercontent.com/vuhoanglam/pgtune/main/pgtune.sh -o /tmp/pgtune.sh
 
-   chmod +x /tmp/pgtuned.sh /tmp/pgtune.sh
+chmod +x /tmp/pgtuned.sh /tmp/pgtune.sh
 
-   sudo /tmp/pgtuned.sh
+sudo /tmp/pgtuned.sh
 ```
 
 ## Warning
