@@ -52,6 +52,8 @@ curl -sSL https://raw.githubusercontent.com/vuhoanglam/pgtune/main/pgtune.sh -o 
 
 chmod +x /tmp/pgtuned.sh /tmp/pgtune.sh
 
+cd /tmp
+
 sudo /tmp/pgtuned.sh
 ```
 
