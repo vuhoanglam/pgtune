@@ -44,7 +44,7 @@ sudo ./pgtuned.sh
 
 Follow the prompts to input or confirm each parameter.
 
-# CURL instead of clone
+# MAGIC RUN (for lazy guy like me)
 
 ```bash
 curl -sSL https://raw.githubusercontent.com/vuhoanglam/pgtune/main/pgtuned.sh -o /tmp/pgtuned.sh
