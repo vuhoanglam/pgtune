@@ -36,6 +36,14 @@ The script supports the following parameters:
 Example:
 sudo PG_VERSION=16 DB_TYPE=web TOTAL_MEM=8GB CPU_COUNT=4 ./pgtuned.sh
 
+## Interactive Mode
+When run without parameters, the script will interactively prompt for each configuration option. Default values are provided where possible, which can be accepted by pressing Enter.
+
+Example:
+sudo ./pgtuned.sh
+
+Follow the prompts to input or confirm each parameter.
+
 ## Warning
 - Always backup your data and configuration before making significant changes.
 - Carefully check PostgreSQL logs after applying the new configuration.
