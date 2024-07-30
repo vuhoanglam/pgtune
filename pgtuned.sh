@@ -21,7 +21,7 @@ cmd_opts+=" -v $PG_VERSION"
 DB_TYPE=$(prompt_with_default "Enter database type (web, oltp, dw, desktop, mixed)" "web")
 cmd_opts+=" -t $DB_TYPE"
 
-TOTAL_MEM=$(prompt_with_default "Enter total system memory (e.g., 4GB, 8GB)" "$(free -h | awk '/^Mem:/{print $2}')")
+TOTAL_MEM=$(prompt_with_default "Enter total system memory (e.g., 4GB, 8GB)" "$(free -g | awk '/^Mem:/{print $2}')GB")
 cmd_opts+=" -m $TOTAL_MEM"
 
 CPU_COUNT=$(prompt_with_default "Enter number of CPUs" "$(nproc)")
